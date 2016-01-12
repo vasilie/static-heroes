@@ -1,7 +1,7 @@
 //foundations
 @import 'settings';
 
-@import '../../bower_components/foundation-sites/scss/foundation';
+@import '../../../bower_components/foundation/scss/foundation';
 
 @include foundation-global-styles;
 @include foundation-grid;

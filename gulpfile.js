@@ -28,12 +28,12 @@ gulp.task("scripts",function(){
 // /////////////////////////////////////////////////
 
 gulp.task("styles",function(){
-    gulp.src("public/assets/sass/**/*.scss")
+    gulp.src("public/assets/scss/**/*.scss")
     .pipe(plumber())
     .pipe(sass({
       style:"compressed"
     }))
-    .pipe(gulp.dest("public/css/"))
+    .pipe(gulp.dest("public/assets/css/"))
     .pipe(reload({stream:true}));
 });
 
