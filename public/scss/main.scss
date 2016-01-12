@@ -1,0 +1,24 @@
+//foundations
+@import 'settings';
+
+@import '../../bower_components/foundation-sites/scss/foundation';
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-breadcrumbs;
+@include foundation-flex-video;
+@include foundation-media-object;
+@include foundation-text-alignment;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-top-bar;
+@include foundation-menu;
+@include foundation-dropdown-menu;
+
+//sasses
+@import "page-partials/header";
+@import "page-partials/footer";
+@import "page-partials/navigation";
